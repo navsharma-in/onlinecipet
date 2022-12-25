@@ -4,12 +4,15 @@
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    background-color: #3e3c57;
-    color: white;
-    box-shadow: 0px 0px 3px 0px black;
-    margin-bottom: 4%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px black;
+    /* margin-bottom: 4%; */
     position: sticky;
     top: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+
   }
   
   .navbar > ul {
@@ -33,7 +36,7 @@
   
   .logo {
     text-decoration: solid;
-    color: #f0db51;
+    color: #000000;
     margin-right: 10vw;
     font-size: 1.5em;
   }

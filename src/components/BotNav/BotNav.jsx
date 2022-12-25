@@ -5,7 +5,8 @@ const BotNav = () => {
   return (
     <>
       <div className="footer">
-        <logo className="logo">#NAV </logo>
+        {/* <logo className="logo">#NAV </logo> */}
+       
         <ul>
           <li>Facebook</li>
           <li>Twitter</li>
