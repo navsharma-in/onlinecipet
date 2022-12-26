@@ -1,14 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import BotNav from './components/BotNav/BotNav'
-import { Navbar } from './components/Navbar/Navbar'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+// import BotNav from "./components/BotNav/BotNav";
+// import { Navbar } from "./components/Navbar/Navbar";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar />
+    <BrowserRouter>
+    {/* <Navbar /> */}
     <App />
-    <BotNav />
-  </React.StrictMode>,
-)
+    {/* <BotNav /> */}
+    </BrowserRouter>
+  </React.StrictMode>
+);

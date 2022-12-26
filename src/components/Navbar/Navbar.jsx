@@ -12,9 +12,9 @@ export const Navbar = () => {
           <li>Blog</li>
           <li>Apply Online</li>
           <li>Download</li>
-          <li>Fees Structure</li>
           <li>Contact</li>
         </ul>
+
         <input className="search" type="text" placeholder="Search" />
       </nav>
     </>

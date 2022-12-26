@@ -15,6 +15,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(222, 129, 172);
+  border: 0.5px 0 0 0 solid black;
 }
 
 .main2 {
@@ -25,6 +26,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 0.5px solid black;
 }
 
 .main-two {
@@ -34,6 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 0.5px solid black;
 }
 .main3 {
   width: 50%;
@@ -43,6 +46,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 0.5px solid black;
 
 }
 
@@ -55,6 +59,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(222, 129, 172);
+  border: 0.5px solid black;
 }
 
 p {
@@ -92,4 +97,8 @@ h1:hover {
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 4px;
+}
+
+h2{
+  margin-bottom: 20px;
 }
