@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/hh.webp";
 import Slogo from "../assets/Service.png";
-
+import { Router, Route } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -38,6 +38,7 @@ const Home = () => {
           {/* <h1>CIPET:CSTS,Bhopal</h1> */}
         </div>
       </div>
+
     </>
   );
 };
