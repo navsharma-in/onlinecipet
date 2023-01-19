@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../assets/hh.webp";
 import Slogo from "../assets/Service.png";
-import { gsap } from 'gsap';
+// import { gsap } from 'gsap';
 const Home = () => {
-  const elementRef = React.useRef(null);
-  React.useEffect(() => {
-    const element = elementRef.current;
-    gsap.to(element, { duration: 2.5, ease: "power4.in", x: 2 });
-  }, []);
+  // const elementRef = React.useRef(null);
+  // React.useEffect(() => {
+  //   const element = elementRef.current;
+  //   gsap.to(element, { duration: 2.5, ease: "power4.in", x: 2 });
+  // }, []);
   return (
     <>
-      <div ref={elementRef} className="main">
+      <div className="main">
         <div className="main1">
           <h1>Online CIPET</h1>
           <h2>Digital Services Blog For CIPETIN's</h2>

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutmain1 {
+  .fee-div1-green {
     width: 50%;
     height: 82vh;
     color: white;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(255, 175, 25);
+    background-color: rgb(51, 218, 120);
     border: 0.5px 0 0 0 solid black;
   }
   
